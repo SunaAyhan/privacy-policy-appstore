@@ -1,0 +1,113 @@
+/* biSade App - Style CSS */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff9f4;
+    box-shadow: 0 0 10px rgba(175, 105, 80, 0.2);
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #e07f7b;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #af6950;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #e07f7b;
+    margin-top: 30px;
+    border-bottom: 1px solid #e07f7b;
+    padding-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #af6950;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e07f7b;
+}
+
+.app-store-badge {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    color: #af6950;
+}
+
+nav a:hover {
+    color: #e07f7b;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #e07f7b;
+    color: #af6950;
+    font-size: 0.9em;
+}
+
+/* Yeni eklenen stiller */
+.faq-item {
+    background-color: #fff9f4;
+    border-left: 4px solid #e07f7b;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(175, 105, 80, 0.1);
+}
+
+.faq-item h3 {
+    color: #af6950;
+    margin-top: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+button, input[type="submit"] {
+    background-color: #e07f7b;
+    color: #fff9f4;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #af6950;
+}
