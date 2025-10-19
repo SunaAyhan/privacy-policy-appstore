@@ -53,7 +53,8 @@ a:hover {
 .app-store-badge {
     display: block;
     margin: 20px auto;
-    max-width: 200px;
+    height: 56px;
+    width: auto;
 }
 
 nav {
